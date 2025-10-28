@@ -43,7 +43,7 @@ for filename in sorted(os.listdir(data_folder)):
         for product in products
     ]
 
-    # Bulk insert
+    # Bulk insert - instead of inserting one by one --> execute many at once
     execute_values(
         cur,
         """
