@@ -6,7 +6,7 @@ import re
 
 # --- PostgreSQL connection ---
 conn = psycopg2.connect(
-    dbname="suppliers",
+    dbname="tiki",
     user="postgres",
     password="123456",
     port="5432"
